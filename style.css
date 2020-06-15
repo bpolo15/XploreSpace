@@ -126,7 +126,7 @@ footer{
       background-image: url('images/mars.jpg') ;
   }
   a{
-      color: rgb(196, 177, 8);
+      color: rgb(30, 132, 216);
   }
   #marsWeather{
       color: white;
@@ -160,3 +160,11 @@ footer{
     text-align: center;
     margin-top: 65px;
 }
+#launch{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      background-image: url('images/launch3.jpg') ;
+  }
