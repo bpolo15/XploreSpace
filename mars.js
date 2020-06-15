@@ -13,7 +13,7 @@ function marsWeather(){
         console.log(response)
         $("#season").append("<p> It is " + season + " on Mars right now. </p>")
         if(season == "summer"){
-            $("#season").append('<i class="fas fa-umbrella-beach"></i>')
+            $("#season").append('<i class="fas fa-umbrella-beach fa-5x"></i>')
         }if(season == "winter"){
             $("#season").append('<i class="fas fa-snowflake"></i>')
         }if(season == "spring"){

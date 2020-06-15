@@ -69,13 +69,14 @@ footer{
 }
 #datacard{
     /* background-color: rgb(255, 255,255, 0.3); */
-    background-color: rgb(0,0,0,0.3);
+    background-color: rgb(0,0,0,0.6);
     text-align: center;
     color: white;
     width: 50%;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 10px;
     
 }
 #photoTitle{
@@ -131,11 +132,10 @@ footer{
   #marsWeather{
       color: white;
       text-align: center;
-      line-height: 0;
   }
 #tempCard{
     /* background-color: rgb(255, 255,255, 0.3); */
-    background-color: rgb(255,0,0,0.3);
+    background-color: rgb(255,0,0,0.4);
     text-align: center;
     color: white;
     width: 12%;
@@ -146,6 +146,7 @@ footer{
     position: relative;
     float: left;
     font-size: small;
+    line-height: 10px;
 }
 @media screen and (max-width: 910px){
     #tempCard{
@@ -167,4 +168,25 @@ footer{
     -o-background-size: cover;
     background-size: cover;
       background-image: url('images/launch3.jpg') ;
+  }
+  #launchCard{
+    background-color: rgb(9, 7, 119, 0.8);
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    line-height: 5px;
+  }
+  #rockets{
+      color: rgb(229, 228, 255);
+      text-align: center;
+  }
+  .header{
+      font-size: larger;
+      color: lightblue;
+  }
+  #watch{
+      color: gold;
   }
