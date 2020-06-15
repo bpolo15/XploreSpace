@@ -21,6 +21,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-image: url("images/astroidPage.jpg");
+    font-family: 'Catamaran', sans-serif;
     
 }
 footer{
@@ -97,6 +98,7 @@ footer{
 }
 #photosPage{
     background-color: black;
+    font-family: 'Catamaran', sans-serif;
 }
 #date{
     color: white;
@@ -125,6 +127,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
       background-image: url('images/mars.jpg') ;
+      font-family: 'Catamaran', sans-serif;
   }
   a{
       color: rgb(30, 132, 216);
@@ -168,6 +171,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
       background-image: url('images/launch3.jpg') ;
+      font-family: 'Catamaran', sans-serif;
   }
   #launchCard{
     background-color: rgb(9, 7, 119, 0.8);
@@ -185,7 +189,7 @@ footer{
   }
   .header{
       font-size: larger;
-      color: lightblue;
+      color: rgb(36, 184, 233);
   }
   #watch{
       color: gold;
