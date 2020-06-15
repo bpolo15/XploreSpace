@@ -25,8 +25,10 @@ function marsWeather(){
 
        for(i=0; i<7; i++){
            var sol = response.sol_keys[i]
-           var minTemp = response[sol].AT.mn
-           var maxTemp = response[sol].AT.mx
+           var getMinTemp = response[sol].AT.mn
+           var minTemp = getMinTemp.toFixed();
+           var getMaxTemp = response[sol].AT.mx
+           var maxTemp = getMaxTemp.toFixed();
             var day = response[sol].Last_UTC
             var split = day.split("-")
             var year = split[0]

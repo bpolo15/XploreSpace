@@ -11,6 +11,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Catamaran', sans-serif;
+    font-size: large;
 }
 #back2{
     background: no-repeat center center fixed; 
@@ -35,9 +37,16 @@ footer{
      background-color: rgb(255, 255,255, 0.3);
      height: 200px;
      text-align: center;
-     padding-top: 75px;
+     padding-top: 60px;
      color: white;
  }
+ #atext1{
+    background-color: rgb(255, 255,255, 0.3);
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
  
 #weather{
     position: relative;
@@ -59,7 +68,8 @@ footer{
     text-align: center;
 }
 #datacard{
-    background-color: rgb(255, 255,255, 0.3);
+    /* background-color: rgb(255, 255,255, 0.3); */
+    background-color: rgb(0,0,0,0.3);
     text-align: center;
     color: white;
     width: 50%;
@@ -116,7 +126,7 @@ footer{
       background-image: url('images/mars.jpg') ;
   }
   a{
-      color: rgb(196, 8, 196);
+      color: rgb(196, 177, 8);
   }
   #marsWeather{
       color: white;
@@ -124,15 +134,29 @@ footer{
       line-height: 0;
   }
 #tempCard{
-    background-color: rgb(255, 255,255, 0.3);
+    /* background-color: rgb(255, 255,255, 0.3); */
+    background-color: rgb(255,0,0,0.3);
     text-align: center;
     color: white;
-    width: 14%;
-    margin-top: 10px;
+    width: 12%;
+    margin-top: 50px;
     margin-bottom: 15px;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     position: relative;
     float: left;
     font-size: small;
+}
+@media screen and (max-width: 910px){
+    #tempCard{
+        width: auto
+    }
+}
+#learn{
+    color: rgb(235, 112, 235);
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 65px;
 }

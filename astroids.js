@@ -46,7 +46,7 @@ function getAstroids(yyyy,mm,dd){
         var nameofAstroid = $("<p>").text("Name of Object: " + getName)
         var missDistance = $("<p>").text("Distance from Earth: " + distanceRounded + " miles away")
         var velocity = $("<p>").text("Velocity of Object: " + velocityRounded + " miles per hour")
-        var link = $("<p>").append("<a href = "+getLink+"> Learn More")
+        var link = $("<p>").append("<a href = "+getLink+" id='learn'> Learn More")
 
         cardbody.append(nameofAstroid, missDistance, velocity, link)
         card.append(cardbody)
