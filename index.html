@@ -8,15 +8,54 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>XploreSpace</title>
 </head>
-<body>
+<body id="body">
     <div class="jumbotron jumbotron-fluid" id="PhotoOfDay">
         <div class="container">
           <h1 class="display-4">Xplore Space</h1>
-          <p class="lead">NASA photo of the day</p>
         </div>
       </div>
-<script src="Jumbotron.js"></script>
-<script src="astroids.js"></script>
+      <div class="container" id="back">
+      <div class = "row">
+          <div class = "col-sm-6 col-md-6 col-lg-3">
+            <div class="card"  id='astroid'>
+                <div class="card-body">
+                  <p class="card-text" id='atext'>
+                  <a href="astroid.html" class="card-link" style="color: black;">Astroid</a></p>
+                </div>
+              </div>
+          </div>
+          <div class = "col-sm-6 col-md-6 col-lg-3">
+            <div class="card"  id='weather'>
+                <div class="card-body">
+                  <p class="card-text" id='atext'>
+                  <a href="#" class="card-link" style="color: black;">Space Weather</a></p>
+                </div>
+              </div>
+        </div>
+        <div class = "col-sm-6 col-md-6 col-lg-3">
+            <div class="card"  id='mars'>
+                <div class="card-body">
+                  <p class="card-text" id='atext'>
+                  <a href="#" class="card-link" style="color: black;">Mars</a></p>
+                </div>
+              </div>
+          </div>
+          <div class = "col-sm-6 col-md-6 col-lg-3">
+            <div class="card"  id='photos'>
+                <div class="card-body">
+                  <p class="card-text" id='atext'>
+                  <a href="photoOfDay.html" class="card-link" style="color: black;">More Photos</a></p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+<footer>
+    <p>Photos brought to you by NASA</p>
+</footer>
+
+
 
 </body>
 </html>

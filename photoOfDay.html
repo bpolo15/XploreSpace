@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>PhotoOfDay</title>
+</head>
+
+<body id="photosPage" style="background-color: black;">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Main Page</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="astroid.html">Near Earth Objects</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+    </ul>
+    <div id="date">
+        <h3 id="todayDate"> </h3>
+        <p>
+            <a class="button" id="leftbtn" href="#">
+                <i class="arrow left"> </i></a> Picture of the Day <a class="button" id="right" href="#"><i
+                    class="arrow right"></i></a></p>
+    </div>
+    <div class = "card" style="background-color: black;">
+        <div class="card-body" id="photoTitle"></div>
+    </div>
+    <div class = "container">
+        <div class="video">
+            <div class="card" style="background-color: black;">
+              
+                <div class="card-body" id="videoHere">
+                    <iframe width=560 height=315 frameborder="0" scrolling="no" id="iframe"> </iframe>
+                </div>
+            </div>
+        </div>
+        <div class ="card" style="background-color: black;">
+            <div class="card-body" id="photoHere">
+            </div>
+        </div>
+       
+    </div>
+
+
+
+    <!-- <div>
+
+        <div class = "card" id="photoHere"></div>
+        <div class="video">
+            <div class="card" style="background-color: black;">
+              
+                <div class="card-body" id="videoHere">
+                    <iframe width=560 height=315 frameborder="0" scrolling="no" id="iframe"> </iframe>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="photoOfDay.js"></script>
+
+</body>
+
+</html>

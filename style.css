@@ -1,5 +1,109 @@
+
 .jumbotron-fluid{
     color:white;
     background-repeat: no-repeat;
     background-size: cover;
+    background: transparent;
 }
+#body{
+    background: url('images/mainPage.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#back2{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("images/astroidPage.jpg");
+    
+}
+footer{
+    background: transparent;
+}
+
+#astroid{
+    position: relative;
+    margin: auto;
+    background: transparent;
+    border: transparent;
+ }
+ #atext{
+     background-color: rgb(255, 255,255, 0.3);
+     height: 200px;
+     text-align: center;
+     padding-top: 75px;
+     color: white;
+ }
+ 
+#weather{
+    position: relative;
+    margin: auto;
+    background: transparent;
+    border: transparent;
+}
+#mars{
+    height: 200px;
+    background: transparent;
+    border: transparent;
+ }
+#photos{
+   height: 200px;
+   background: transparent;
+   border: transparent;
+}
+#number{
+    text-align: center;
+}
+#datacard{
+    background-color: rgb(255, 255,255, 0.3);
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#photoTitle{
+    color: white;
+    text-align: center;
+}
+#photoHere{
+    position: relative;
+    margin: 0 auto;
+   height: 1000px;
+   width: 1000px;
+    background: no-repeat;
+}
+#videoHere{
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+}
+#photosPage{
+    background-color: black;
+}
+#date{
+    color: white;
+    text-align: center;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
