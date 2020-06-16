@@ -11,7 +11,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: large;
 }
 #back2{
@@ -21,7 +21,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-image: url("images/astroidPage.jpg");
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     
 }
 footer{
@@ -98,11 +98,12 @@ footer{
 }
 #photosPage{
     background-color: black;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 #date{
     color: white;
     text-align: center;
+    line-height: 0px;
 }
 .arrow {
     border: solid white;
@@ -127,7 +128,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
       background-image: url('images/mars.jpg') ;
-      font-family: 'Catamaran', sans-serif;
+      font-family: 'Signika Negative', sans-serif;
   }
   a{
       color: rgb(30, 132, 216);
@@ -149,7 +150,10 @@ footer{
     position: relative;
     float: left;
     font-size: small;
-    line-height: 10px;
+    line-height: 5px;
+}
+#season{
+    font-size: larger;
 }
 @media screen and (max-width: 910px){
     #tempCard{
@@ -171,7 +175,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
       background-image: url('images/launch3.jpg') ;
-      font-family: 'Catamaran', sans-serif;
+      font-family: 'Signika Negative', sans-serif;
   }
   #launchCard{
     background-color: rgb(9, 7, 119, 0.8);
