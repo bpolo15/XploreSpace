@@ -65,40 +65,39 @@ function photoOfDay(yyyy,mm,dd){
             mm = 12
         }
         console.log(dd)
-        // photoOfDay(yyyy,mm,dd)
-        removeCard(yyyy,mm,dd)
+        photoOfDay(yyyy,mm,dd)
+    
         
         
 
     })
-    function removeCard(yyyy,mm,dd){
-        $('div').remove(".photoOfDay")
-        photoOfDay(yyyy,mm,dd)
-    }
+  
 
-    // $("#rightbtn").click(function(){
-    //     var current = parseInt(String(date.getDate()).padStart(2, '0'));
-    //     console.log("right")
-    //     if(dd===30){
-    //         dd = 1
-    //         mm = mm+1
-    //     }if(dd>1){
-    //     dd = dd+1;
-    //     }
-    //     if(mm===12){
-    //         mm = 1
-    //     }if(dd = current){
-    //         console.log("today")
-    //     }
-    //     console.log(dd)
-    //     photoOfDay(yyyy,mm,dd)
-        
+    $("#rightbtn").click(function(){
+        var current = parseInt(String(date.getDate()).padStart(2, '0'));
+        console.log("Current: ", current)
+        console.log("Right Click: ", yyyy, mm, dd)
+        if(dd >= 1&& dd!=current){
+            dd++
+            console.log("Next Day:", dd)
+            console.log("Current: ", current)
+            photoOfDay(yyyy,mm,dd)
+        }
+        if(dd === current){
+            dd = current;
+            photoOfDay(yyyy,mm,dd)
+        }
+        if(dd === 30){
+            dd = 1
+            mm++
+            photoOfDay(yyyy,mm,dd)
+        }
+
+ 
         
 
-    // })
+    })
     
-
- //  $('<iframe src="' +photo + '" width=560 height=315 frameborder="0" scrolling="no" id="iframe" </iframe>').appendTo("#photoHere")
 
 
 })
