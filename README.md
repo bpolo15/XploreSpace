@@ -2,15 +2,24 @@
 
 ## Link
 
-View Webpage: https://bpolo15.github.io/XploreSpace/
+ https://bpolo15.github.io/XploreSpace/
+
+## About
 
 This Application allows you to view Near Earth Objects, the weather on Mars, information about future rocket launches, and NASA's Photo of the Day. 
 
-## Main Page
+## Website Examples
+
+### Main Page
 
 Choose your adventure:
 
 ![MainPage](/images/MainPageReadMe.JPG)
+
+### Future Launches
+
+![LaunchPage](/images/launchPage.JPG)
+
 
 ## Technologies Used:
 
