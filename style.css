@@ -199,3 +199,9 @@ footer{
   #watch{
       color: gold;
   }
+#small{
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    font-size: small;
+}
