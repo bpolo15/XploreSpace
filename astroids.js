@@ -36,8 +36,9 @@ function getAstroids(yyyy,mm,dd){
         var getName = getData2.name;
         var getDistance = getData2.close_approach_data[0].miss_distance.miles;
         var distanceRounded = parseInt(getDistance).toFixed();
-        var velocityRounded = parseInt(distanceRounded).toFixed();
+        var velocityRounded = parseInt(getVelocity).toFixed();
         var getVelocity = getData2.close_approach_data[0].relative_velocity.miles_per_hour;
+        var velocityRounded = parseInt(getVelocity).toFixed();
         var getLink = getData2.nasa_jpl_url
         // console.log("Get name: ", getName, "Get Distance: ",getDistance, "Velocity: ",getVelocity, "Link: ", getLink)
     
