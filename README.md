@@ -23,7 +23,7 @@ Choose your adventure:
 
 ## Technologies Used:
 
-HTML5, CSS2, JavaScript, JQuery, NASA Open APIs (APOD, Astroids NeoWs, Insight) and Launch Library API.
+HTML5, CSS3, JavaScript, JQuery, NASA Open APIs (APOD, Astroids NeoWs, Insight) and Launch Library API.
 
  ## Questions
   
