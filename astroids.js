@@ -22,17 +22,26 @@ function getAstroids(yyyy,mm,dd){
         url: queryURL,
         method: "GET"
     }).then(function(response){
-        console.log(response)
-        var todayDate = String(yyyy+"-0"+mm+'-'+dd)
+        if(dd<10&&mm<10){
+            var todayDate = String(yyyy+"-0"+mm+'-0'+dd)
+        }else if(mm>10&&dd<10){
+            var todayDate = String(yyyy+"-"+mm+'-0'+dd)
+        }else if(mm<10&&dd>10){
+            var todayDate = String(yyyy+"-0"+mm+'-'+dd)
+        }else if(mm>10&&dd>10){
+            var todayDate = String(yyyy+"-"+mm+'-'+dd)
+        }
+        
         var number = response.element_count;
-        console.log(number)
+        // console.log(number)
         $("#number").text("Number of Near Earth Object in the last week: " + number)
 
        
     for(i=0; i<number; i++){
-        console.log("number: ", i+1)
         var getData = response.near_earth_objects;
+        console.log("Hello:", getData[todayDate])
         var getData2 = getData[todayDate][i];
+        console.log("Hello:", getData2)
         var getName = getData2.name;
         var getDistance = getData2.close_approach_data[0].miss_distance.miles;
         var distanceRounded = parseInt(getDistance).toFixed();
@@ -40,7 +49,7 @@ function getAstroids(yyyy,mm,dd){
         var getVelocity = getData2.close_approach_data[0].relative_velocity.miles_per_hour;
         var velocityRounded = parseInt(getVelocity).toFixed();
         var getLink = getData2.nasa_jpl_url
-        // console.log("Get name: ", getName, "Get Distance: ",getDistance, "Velocity: ",getVelocity, "Link: ", getLink)
+        console.log("Get name: ", getName, "Get Distance: ",getDistance, "Velocity: ",getVelocity, "Link: ", getLink)
     
         var card = $("<div class = 'card'  id = 'datacard'>")
         var cardbody = $("<div class = 'card-body'>")
