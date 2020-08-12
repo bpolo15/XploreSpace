@@ -205,3 +205,8 @@ footer{
     text-align: center;
     font-size: small;
 }
+@media screen and (max-width: 576px) {
+    #mars{
+        margin-bottom: 40px;
+    }
+  }
