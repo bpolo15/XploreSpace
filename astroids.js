@@ -17,7 +17,7 @@ function getDate(){
 function getAstroids(yyyy,mm,dd){
     
     var queryURL = "https://api.nasa.gov/neo/rest/v1/feed?end_date=" +yyyy+"-"+mm+"-"+dd+"&api_key=tEZcdcYgqv4qRNe0W8QrLu2ed5kywhjxxLWvofzI";
-
+    
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -28,7 +28,7 @@ function getAstroids(yyyy,mm,dd){
             var todayDate = String(yyyy+"-"+mm+'-0'+dd)
         }else if(mm<10&&dd>10){
             var todayDate = String(yyyy+"-0"+mm+'-'+dd)
-        }else if(mm>10&&dd>10){
+        }else if(mm>=10&&dd>=10){
             var todayDate = String(yyyy+"-"+mm+'-'+dd)
         }
         
@@ -39,9 +39,7 @@ function getAstroids(yyyy,mm,dd){
        
     for(i=0; i<number; i++){
         var getData = response.near_earth_objects;
-        console.log("Hello:", getData[todayDate])
         var getData2 = getData[todayDate][i];
-        console.log("Hello:", getData2)
         var getName = getData2.name;
         var getDistance = getData2.close_approach_data[0].miss_distance.miles;
         var distanceRounded = parseInt(getDistance).toFixed();
@@ -68,19 +66,3 @@ function getAstroids(yyyy,mm,dd){
 
 }
 
-// function getPhoto(){
-//     var api_key = "tEZcdcYgqv4qRNe0W8QrLu2ed5kywhjxxLWvofzI"
-//     var queryURL = "http://api.nasa.gov/planetary/apod?api_key=" + api_key +
-//     "&date=2020-05-20"
-
-//     $.ajax({
-//         url: queryURL,
-//         method: "GET"
-//     }).then(function(response){
-//         var photo1 = response.url;
-//         console.log(photo1)
-//         $("#back2").css("background-image", 'url("' + photo1 +'")')
-
-//     })
-  
-// }

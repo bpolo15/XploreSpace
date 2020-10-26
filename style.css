@@ -1,233 +1,232 @@
-
-.jumbotron-fluid{
-    color:white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: transparent;
+.jumbotron-fluid {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: transparent;
 }
-#body{
-    background: url('images/mainPage.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: large;
+#body {
+  background: url("images/mainPage.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Signika Negative", sans-serif;
+  font-size: large;
 }
-#back2{
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url("images/astroidPage.jpg");
-    font-family: 'Signika Negative', sans-serif;
-    
+#back2 {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("images/astroidPage.jpg");
+  font-family: "Signika Negative", sans-serif;
 }
-footer{
-    background: transparent;
+footer {
+  background: transparent;
 }
 
-#astroid{
-    position: relative;
-    margin: auto;
-    background: transparent;
-    border: transparent;
- }
- #atext{
-     background-color: rgb(255, 255,255, 0.3);
-     height: 200px;
-     text-align: center;
-     padding-top: 60px;
-     color: white;
- }
- #atext1{
-    background-color: rgb(255, 255,255, 0.3);
-    height: 200px;
-    text-align: center;
-    padding-top: 50px;
-    color: white;
+#astroid {
+  position: relative;
+  margin: auto;
+  background: transparent;
+  border: transparent;
 }
- 
-#weather{
-    position: relative;
-    margin: auto;
-    background: transparent;
-    border: transparent;
+#atext {
+  background-color: rgb(255, 255, 255, 0.3);
+  height: 200px;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
 }
-#mars{
-    height: 200px;
-    background: transparent;
-    border: transparent;
- }
-#photos{
-   height: 200px;
-   background: transparent;
-   border: transparent;
-}
-#number{
-    text-align: center;
-}
-#datacard{
-    /* background-color: rgb(255, 255,255, 0.3); */
-    background-color: rgb(0,0,0,0.6);
-    text-align: center;
-    color: white;
-    width: 50%;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 10px;
-    
-}
-#photoTitle{
-    color: white;
-    text-align: center;
-}
-#photoHere{
-    position: relative;
-    margin: 0 auto;
-   height: 1000px;
-   width: 1200px;
-    background: no-repeat;
+#atext1 {
+  background-color: rgb(255, 255, 255, 0.3);
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
 }
 
-#videoHere{
-    position: relative;
-    margin: 0 auto;
-    background-color: black;
+#weather {
+  position: relative;
+  margin: auto;
+  background: transparent;
+  border: transparent;
 }
-#photosPage{
-    background-color: black;
-    font-family: 'Signika Negative', sans-serif;
+#mars {
+  height: 200px;
+  background: transparent;
+  border: transparent;
 }
-#date{
-    color: white;
-    text-align: center;
-    line-height: 0px;
+#photos {
+  height: 200px;
+  background: transparent;
+  border: transparent;
+}
+#number {
+  text-align: center;
+}
+#datacard {
+  /* background-color: rgb(255, 255,255, 0.3); */
+  background-color: rgb(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 10px;
+}
+#photoTitle {
+  color: white;
+  text-align: center;
+}
+#photoHere {
+  
+  margin: 0 auto;
+  height: 1000px;
+  width: 1200px;
+  background: no-repeat;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#videoHere {
+  position: relative;
+  margin: 0 auto;
+  background-color: black;
+}
+#photosPage {
+  background-color: black;
+  font-family: "Signika Negative", sans-serif;
+}
+#date {
+  color: white;
+  text-align: center;
+  line-height: 0px;
 }
 .arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  #mars1{
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-      background-image: url('images/mars.jpg') ;
-      font-family: 'Signika Negative', sans-serif;
-  }
-  a{
-      color: rgb(30, 132, 216);
-  }
-  #marsWeather{
-      color: white;
-      text-align: center;
-  }
-#tempCard{
-    /* background-color: rgb(255, 255,255, 0.3); */
-    background-color: rgb(255,0,0,0.4);
-    text-align: center;
-    color: white;
-    width: 12%;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-right: auto;
-    position: relative;
-    float: left;
-    font-size: small;
-    line-height: 5px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
-#season{
-    font-size: larger;
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
-@media screen and (max-width: 910px){
-    #tempCard{
-        width: auto
-    }
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
-#learn{
-    color: rgb(235, 112, 235);
+#mars1 {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("images/mars.jpg");
+  font-family: "Signika Negative", sans-serif;
 }
-footer{
-    color: white;
-    text-align: center;
-    margin-top: 65px;
+a {
+  color: rgb(30, 132, 216);
 }
-#launch{
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-      background-image: url('images/launch3.jpg') ;
-      font-family: 'Signika Negative', sans-serif;
+#marsWeather {
+  color: white;
+  text-align: center;
+}
+#tempCard {
+  /* background-color: rgb(255, 255,255, 0.3); */
+  background-color: rgb(255, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+  width: 12%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: auto;
+  position: relative;
+  float: left;
+  font-size: small;
+  line-height: 5px;
+}
+#season {
+  font-size: larger;
+}
+@media screen and (max-width: 910px) {
+  #tempCard {
+    width: auto;
   }
-  #launchCard{
-    background-color: rgb(9, 7, 119, 0.8);
-    text-align: center;
-    color: white;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    line-height: 5px;
-  }
-  #rockets{
-      color: rgb(229, 228, 255);
-      text-align: center;
-  }
-  .header{
-      font-size: larger;
-      color: rgb(36, 184, 233);
-  }
-  #watch{
-      color: gold;
-  }
-#small{
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-    text-align: center;
-    font-size: small;
-    /* position: absolute; */
-    bottom: 0;
-    
+}
+#learn {
+  color: rgb(235, 112, 235);
+}
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 65px;
+}
+#launch {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("images/launch3.jpg");
+  font-family: "Signika Negative", sans-serif;
+}
+#launchCard {
+  background-color: rgb(9, 7, 119, 0.8);
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  line-height: 5px;
+}
+#rockets {
+  color: rgb(229, 228, 255);
+  text-align: center;
+}
+.header {
+  font-size: larger;
+  color: rgb(36, 184, 233);
+}
+#watch {
+  color: gold;
+}
+#small {
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  font-size: small;
+  /* position: absolute; */
+  bottom: 0;
 }
 @media screen and (max-width: 576px) {
-    #mars{
-        margin-bottom: 40px;
-    }
+  #mars {
+    margin-bottom: 40px;
   }
-  @media screen and (max-width: 530px) {
-    #datacard, #launchCard{
-        line-height: 15px;
-    }
+}
+@media screen and (max-width: 530px) {
+  #datacard,
+  #launchCard {
+    line-height: 15px;
   }
-  #small1{
-    position: relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
-    clear:both;
-    padding-top:20px;
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-    text-align: center;
-    font-size: small;
-    /* position: absolute; */
-    bottom: 0;
-  }
+}
+#small1 {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  font-size: small;
+  /* position: absolute; */
+  bottom: 0;
+}
