@@ -22,7 +22,7 @@ function photoOfDay(yyyy,mm,dd){
     }).then(function(response){
         var photo = response.url;
         var title = response.title;
-        console.log(title)
+        console.log("Hell0",title)
         
         if(photo.includes("youtube")){
             console.log("youtube")
@@ -39,8 +39,7 @@ function photoOfDay(yyyy,mm,dd){
           
             
         }
-        console.log(photo)
-       
+        
 
     })
     

@@ -42,12 +42,12 @@ function getAstroids(yyyy,mm,dd){
         var getData2 = getData[todayDate][i];
         var getName = getData2.name;
         var getDistance = getData2.close_approach_data[0].miss_distance.miles;
-        var distanceRounded = parseInt(getDistance).toFixed();
-        var velocityRounded = parseInt(getVelocity).toFixed();
+        var distanceRounded =  parseInt(getDistance).toFixed();
+        distanceRounded = distanceRounded.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
         var getVelocity = getData2.close_approach_data[0].relative_velocity.miles_per_hour;
         var velocityRounded = parseInt(getVelocity).toFixed();
+        velocityRounded = velocityRounded.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
         var getLink = getData2.nasa_jpl_url
-        console.log("Get name: ", getName, "Get Distance: ",getDistance, "Velocity: ",getVelocity, "Link: ", getLink)
     
         var card = $("<div class = 'card'  id = 'datacard'>")
         var cardbody = $("<div class = 'card-body'>")

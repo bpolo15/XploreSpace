@@ -38,10 +38,7 @@ function getLaunches() {
                 cardbody.append(nameHeader, rocketName, dateHeader, dateOfLaunch, locationHeader, locationOfLaunch, rocket)
                 card.append(cardbody)
                 $(".launchData").append(card)
-
-            console.log(" no watch")
             }else{
-                console.log("Watch")
                 cardbody.append(nameHeader, rocketName, dateHeader, dateOfLaunch, locationHeader, locationOfLaunch, watch, rocket)
                 card.append(cardbody)
                 $(".launchData").append(card)

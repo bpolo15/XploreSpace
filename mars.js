@@ -10,7 +10,6 @@ function marsWeather(){
     }).then(function(response){
         var day = response.sol_keys[0]
         var season = response[day].Season
-        console.log(response)
         $("#season").append("<p> It is " + season + " on Mars right now. </p>")
         if(season == "summer"){
             $("#season").append('<i class="fas fa-umbrella-beach fa-5x"></i>')
@@ -22,7 +21,7 @@ function marsWeather(){
         if(season == "fall"){
             $("#season").append('<i class="fab fa-canadian-maple-leaf"></i>')
         }
-
+        if(response.sol_keys[0].AT !== undefined){
        for(i=0; i<7; i++){
            var sol = response.sol_keys[i]
            var getMinTemp = response[sol].AT.mn
@@ -34,7 +33,6 @@ function marsWeather(){
             var year = split[0]
             var month = split[1]
             var earthDay = split[2].split("T")
-            console.log( month,earthDay[0], year)
            
             var card = $("<div class = 'card'  id = 'tempCard'>")
             var cardbody = $("<div class = 'card-body'>")
@@ -47,11 +45,10 @@ function marsWeather(){
             cardbody.append(dayEarthtext, earthDay, marsDay, tempLow, tempHigh)
             card.append(cardbody)
             $(".temps").prepend(card)
-           
-        
-           
-           
        }
+    }else{
+        $(".temps").append(`<p> Temperatures temporarily unavailable. Please try again later </p>`)
+    }
     })
 }
 
