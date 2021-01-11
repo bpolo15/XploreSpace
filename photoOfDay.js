@@ -60,8 +60,10 @@ function photoOfDay(yyyy,mm,dd){
         }if(dd>1){
         dd = dd-1;
         }
-        if(mm===1){
+        if(mm === 1 && dd === 1){
             mm = 12
+            yyyy = 2020
+            dd = 30
         }
         console.log(dd)
         photoOfDay(yyyy,mm,dd)
